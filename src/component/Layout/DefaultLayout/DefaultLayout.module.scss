@@ -6,12 +6,9 @@
 
 .container {
     display: flex;
-    height: 1000px;
-    width: 1150px;
-    background-color: aquamarine;
+    width: var(--default-layout-width);
 }
 
 .content {
     flex: 1;
-    background-color: bisque;
 }
